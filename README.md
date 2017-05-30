@@ -22,13 +22,13 @@ You can replace a filename with `.` or `*` to apply a command to all files. for 
 `git push -u origin myFeatureBranch` will create and push to the upstream branch on the server.
 
 ## Revert
-###The git `revert` command undoes a committed snapshot. But, instead of removing the commit from the project history, it figures out how to undo the changes introduced by the commit and appends a new commit with the resulting content. This prevents Git from losing history.
+The git `revert` command undoes a committed snapshot. But, instead of removing the commit from the project history, it figures out how to undo the changes introduced by the commit and appends a new commit with the resulting content. This prevents Git from losing history.
 
 `git revert <commit>`
 Generate a new commit that undoes all of the changes introduced in <commit>, then apply it to the current branch.
 
 ## Reset
-###Depending on its usage, `reset` removes files or commits.  More importantly it removes HISTORY.  Therefore, be very careful when using it.
+Depending on its usage, `reset` removes files or commits.  More importantly it removes HISTORY.  Therefore, be very careful when using it.
 
 `git reset <file>`
 Remove the specified file from the staging area, but leave the working directory unchanged. This unstages a file without overwriting any changes.
