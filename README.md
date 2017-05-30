@@ -1,4 +1,4 @@
-# GIT Help
+# GIT Cheatsheet
 
 ## Working locally
 * `git status` will give you the current state of your local branch including file changes.
